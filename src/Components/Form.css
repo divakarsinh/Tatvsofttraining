@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* FormComponent.css */
+.form-demo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* This will add 16px vertical spacing between each box */
+    font-family:"Montserrat, sans-serif";
+    height: 100vh;
+  }
+  
+  /* Optional: To add horizontal spacing between each box, use the following style */
+  .form-demo > div {
+    margin-right: 16px; /* This will add 16px horizontal spacing between each box */
+  }
+  .text-field {
+    width: 200px; /* You can adjust the width as per your requirement */
+  }

@@ -1,0 +1,13 @@
+.add-book-container {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 400px; */
+    margin-top: 150px;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap: 16px;
+    height: 95%;
+  }
+  

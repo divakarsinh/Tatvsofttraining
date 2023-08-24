@@ -1,0 +1,129 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.App-header {
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-left {
+  display: flex; /* Display items in a row */
+}
+
+.header-left a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: relative;
+  font-weight: 300;
+}
+.header-center {
+  display: flex;
+  align-items: center;
+}
+
+.header-center img {
+  width: 100px; /* Set the width of the logo */
+  height: auto; /* Adjust the height automatically */
+  margin-right: 400px;
+}
+
+.App-content {
+  flex: 1;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.App-header a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.App-header a:hover::after {
+  width: 100%;
+}
+
+
+
+
+.header-right {
+  display: flex; 
+  align-items: center; 
+}
+.header-right a{
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+
+.cart-icon {
+  margin-left: 10px; 
+}
+
+.cart-icon a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Set the cart icon color to white */
+.cart-icon svg {
+  fill: white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .App-content {
+    padding: 10px;
+  }
+
+  .App-header {
+    justify-content: center; /* Center the header links on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    font-size: 1.2rem; /* Decrease the font size for smaller screens */
+  }
+
+  .App-header {
+    flex-wrap: wrap; /* Allow the header links to wrap on smaller screens */
+    justify-content: center; /* Center the header links on smaller screens */
+  }
+
+  .header-left,
+  .header-right {
+    flex-direction: column; /* Change to a column layout on smaller screens */
+    align-items: center; /* Center items vertically in the header */
+  }
+
+  .App-header a {
+    margin: 5px; /* Reduce the margin between header links on smaller screens */
+    padding: 3px 8px; /* Reduce the padding of header links on smaller screens */
+  }
+}

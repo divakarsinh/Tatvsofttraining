@@ -1,0 +1,18 @@
+/* Shared.css */
+
+/* Apply reset styles to the body and html elements */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Apply styles for the container div to center its content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+

@@ -1,0 +1,21 @@
+.CartContainer {
+  display: flex;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .Button {
+    margin-top: 15px;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+  }

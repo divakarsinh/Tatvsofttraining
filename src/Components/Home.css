@@ -1,0 +1,100 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  /* background-color: #333131; */
+  color: #fff;
+  width: 90%;
+  margin-top: 100px;
+}
+
+.book-previews-container{
+  padding-top: 700px; 
+  gap: 200px;
+
+}
+
+.book-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  /* margin: 20px; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  color: #000;
+  height: 80%;
+}
+
+.book-details {
+  flex: 1;
+  padding-right: 20px;
+}
+
+/* Home.css */
+.book-title {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  text-transform: capitalize; /* Capitalize the text */
+  font-weight: bold; /* Make the text bold */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+  letter-spacing: 1px; /* Add a bit of letter spacing */
+  text-align: left; /* Center the text */
+  padding-bottom: 5px; /* Add some spacing below the text */
+  font-family: 'Poppins', sans-serif; 
+}
+
+.book-title-text {
+  color: #007bff; /* Blue color, you can choose any attractive color you like */
+  border-bottom: 2px solid #007bff; /* Add a bottom border */
+}
+
+
+.book-author {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.book-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+}
+.book-descriptionn {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.book-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-image img {
+  max-width: 292px;
+  max-height: 80%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  
+}
